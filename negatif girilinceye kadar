@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void sayiiste(){
+	
+	int sayi;
+	while(1){ //while icine 1 yazilirsa doğru oldugu anlamina gelir
+		printf("Lutfen bir sayi giriniz\n");
+		scanf("%d",&sayi);
+		if(sayi<0){
+			break;
+		}
+	}
+}
+
+int main(){
+	sayiiste();
+	return 0;
+}
